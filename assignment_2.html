@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<title> Assignment 2 </title>
+	<style>
+	.button1,.button2,.button3 {
+		stroke-miterlimit:10;
+		stroke-width:11px; 
+	}
+	.button1 {
+		fill(gray);
+		opacity: 0.75;
+	}
+	.button1:hover {
+		fill:url(#button1);
+		stroke:url(#Golden_Ring-3);
+	}
+	.button2 {
+		fill(gray);
+		opacity: 0.75;
+	}
+	.button2:hover {
+		fill:url(#button2);
+		stroke:url(#Golden_Ring-2);
+	}
+	.button3 {
+		fill(gray);
+		opacity: 0.75;
+	}
+	.button3:hover {
+		fill:url(#button3);
+		stroke:url(#Golden_Ring);
+	}
+	.button1:active, .button2:active, .button3:active {
+		opacity: 0.25;
+	}
+	</style>
+</head>
+
+<body>
+	<svg id="Button_3" data-name="Button 3" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 500 300">
+	<defs>
+	<linearGradient id="button3" x1="397.31" y1="201.91" x2="397.78" y2="99.53" gradientUnits="userSpaceOnUse">
+		<stop offset="0.07" stop-color="#29abe2"/>
+		<stop offset="1" stop-color="#662d91"/>
+	</linearGradient>
+	<radialGradient id="Golden_Ring" cx="397.55" cy="150" r="49.67" gradientUnits="userSpaceOnUse">
+		<stop offset="0.74" stop-color="#fff" stop-opacity="0"/>
+		<stop offset="0.76" stop-color="#fff" stop-opacity="0.01"/>
+		<stop offset="0.77" stop-color="#fff" stop-opacity="0.04"/>
+		<stop offset="0.79" stop-color="#fff" stop-opacity="0.1"/>
+		<stop offset="0.79" stop-color="#fff" stop-opacity="0.18"/>
+		<stop offset="0.8" stop-color="#fff" stop-opacity="0.28"/>
+		<stop offset="0.81" stop-color="#fff" stop-opacity="0.4"/>
+		<stop offset="0.82" stop-color="#fff" stop-opacity="0.5"/>
+		<stop offset="0.82" stop-color="#dbc01f"/>
+		<stop offset="0.83" stop-color="#f1dc3a"/>
+		<stop offset="0.84" stop-color="#f5e13f"/>
+		<stop offset="0.84" stop-color="#dbc01f"/>
+		<stop offset="0.85" stop-color="#e1cb46"/>
+		<stop offset="0.87" stop-color="#e9d976"/>
+		<stop offset="0.89" stop-color="#f0e4a0"/>
+		<stop offset="0.91" stop-color="#f5eec3"/>
+		<stop offset="0.93" stop-color="#faf5dd"/>
+		<stop offset="0.95" stop-color="#fdfbf0"/>
+		<stop offset="0.98" stop-color="#fefefb"/>
+		<stop offset="1" stop-color="#fff"/>
+	</radialGradient>
+	<linearGradient id="button2" x1="248.21" y1="201.91" x2="248.69" y2="99.53" gradientUnits="userSpaceOnUse">
+		<stop offset="0.07" stop-color="#fcee21"/>
+		<stop offset="1" stop-color="#009245"/>
+	</linearGradient>
+	<radialGradient id="Golden_Ring-2" cx="248.45" cy="150" r="49.67" xlink:href="#Golden_Ring"/>
+	<linearGradient id="button1" x1="99.12" y1="201.91" x2="99.59" y2="99.53" gradientUnits="userSpaceOnUse">
+		<stop offset="0" stop-color="red"/>
+		<stop offset="0.06" stop-color="#ff1503"/>
+		<stop offset="0.24" stop-color="#fe560c"/>
+		<stop offset="0.42" stop-color="#fd8c13"/>
+		<stop offset="0.59" stop-color="#fdb719"/>
+		<stop offset="0.74" stop-color="#fcd51e"/>
+		<stop offset="0.86" stop-color="#fce720"/>
+		<stop offset="0.95" stop-color="#fcee21"/>
+	</linearGradient>
+	<radialGradient id="Golden_Ring-3" cx="99.36" cy="150" r="49.67" xlink:href="#Golden_Ring"/>
+	</defs>
+	
+	<title>assignment_2</title>
+	<a xlink:href="https://soundcloud.com/redbullsoundselect/gallant-skipping-stones-feat-jhene-aiko" >
+		<circle class="button1" cx="99.36" cy="150" r="46.67"/>
+	</a>
+	<a xlink:href="https://soundcloud.com/gallant" >
+		<circle class="button2" cx="248.45" cy="150" r="46.67"/>
+	</a>
+	<a xlink:href="https://twitter.com/SoGallant?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" >
+		<circle class="button3" cx="397.55" cy="150" r="46.67"/>
+	</a>
+	</svg>
+</body>
+
+</html>
